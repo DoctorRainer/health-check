@@ -1,0 +1,6 @@
+services:
+  backend:
+    build: .
+    ports:
+      - "3007:3007"
+    restart: unless-stopped
