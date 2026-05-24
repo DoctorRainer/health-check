@@ -1,0 +1,2 @@
+name: health_test
+command: ./target/release/health-test
