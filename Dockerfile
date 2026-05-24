@@ -5,6 +5,6 @@ RUN cargo build --release
 
 FROM alpine:3.19
 WORKDIR /app
-COPY --from=builder /app/target/release/health-test /app/health-test
+COPY --from=builder /app/target/release/health-check /app/health-check
 EXPOSE 3007
-CMD ["./health-test"]
+CMD ["./health-check]

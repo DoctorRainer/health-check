@@ -131,7 +131,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "health-test"
+name = "health_check"
 version = "0.1.0"
 dependencies = [
  "axum",
